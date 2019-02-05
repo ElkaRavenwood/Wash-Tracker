@@ -1,0 +1,32 @@
+body {
+	text-align: center;
+}
+
+/* For building divs*/
+.building { 
+
+}
+
+.washers {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.t {
+	background-color: green;
+}
+
+.f {
+	background-color: red;
+}
+
+.inactive {
+	display: none !important;
+}
+
+/* For washer divs */
+.t , .f {
+	width: 10%;
+	margin: 2%;
+	border-radius: 10%;
+}
