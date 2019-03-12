@@ -9,6 +9,15 @@ header {
 	border-radius: 40%;
 	margin: 2%;
 	color: #272941;
+	display: flex;
+	justify-content: center;
+}
+button {
+	min-width: 15%;
+	max-width: 30%;
+}
+h3 {
+	margin: unset;
 }
 
 /* For building divs*/
@@ -17,7 +26,7 @@ header {
 	border-color: black;
 	border-style: double;
 	border-width: 7;
-	color: #9ad0c4; 
+	color: #9ad0c4;
 	max-width: 90%;
 	display: inline-block;
 	margin: 2%;
@@ -43,7 +52,8 @@ header {
 }
 
 /* For washer divs */
-.t , .f {
+.t,
+.f {
 	min-width: 10%;
 	margin: 2%;
 	padding: 1%;
@@ -51,7 +61,6 @@ header {
 }
 
 @media (max-width: 500px) {
-
 	h1 {
 		font-size: 2em;
 	}
